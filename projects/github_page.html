@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+</head>
+<body style="margin: 0; height: 100vh;">
+    <nav>
+        <div class="nav-container"
+            style="display: flex; justify-content: space-between; align-items: center; background-color:#d9e8ff; width: 100%;height: 50px;">
+            <div class="logo" style="font-size: 1.5em; margin-left: 50px; font-weight: bold; cursor: pointer;">| <a href="./index.html" target="_self" style="text-decoration: none;"> <span style="color:#ec5648 ;"> Smart</span>  Learning</div></a>
+            <div class="subLists" style="display: flex;">
+                <li class="shortLinks" style="list-style: none; margin-right: 50px; font-size: 1.2em;"><a href="./git_page.html"style="text-decoration: none;">Git</a></li>
+                <li class="shortLinks" style="list-style: none; margin-right: 50px; font-size: 1.2em;"><a href="./github_page.html"style="text-decoration: none;">GitHub</a></li>
+                <li class="shortLinks" style="list-style: none; margin-right: 50px; font-size: 1.2em;"><a href="./html_page.html"style="text-decoration: none;">Html</a> </li>
+                <li class="shortLinks" style="list-style: none; margin-right: 50px; font-size: 1.2em;"><a href="./attribute_page.html"style="text-decoration: none;">Attributes </a>
+                    </li>
+                <li class="shortLinks" style="list-style: none; margin-right: 50px; font-size: 1.2em;"><a href="./aboutUs_page.html"style="text-decoration: none;">About us</a> 
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <section >
+        <div style="margin-left: 20px;">
+            <div>
+                <h1>Create a Repository on GitHub</h1>
+                <li>
+                    create a new Repo <br>
+                    We will go over the different options and what they mean later. But for now, choose Public (if you want the repo to be
+                    viewable for anyone) or Private (if you want to choose who should be able to view the repo). Either way, you will be
+                    able to choose who can contribute to the repo.
+                    Then click "Create repository".
+                </li>
+                <h1>Push Local Repository to GitHub</h1>
+                <li>
+                    Since we have already set up a local Git repo, we are going to push that to GitHub <br>
+                    Copy the URL, or click the clipboard marked in the image above.
+                    Now paste it the following command: git remote add origin https://github.com/w3schools-test/hello-world.git <br>
+                    git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to
+                    your local Git repo.
+                    Now we are going to push our master branch to the origin url, and set it as the default remote branch: git push origin master <br>
+                    Now, go back into GitHub and see that the repository has been updated:
+                </li>
+            </div>
+            <div>
+                <h1>Git Pull from GitHub</h1>
+                <h2>Pulling to Keep up-to-date with Changes</h2>
+                <li>
+                    When working as a team on a project, it is important that everyone stays up to date.
+                    Any time you start working on a project, you should get the most recent changes to your local copy.
+                    With Git, you can do that with pull.
+                    pull is a combination of 2 different commands: <br>
+                    fetch
+                    merge <br>
+                    Let's take a closer look into how fetch, merge, and pull works.
+                </li>
+            </div>
+            <div>
+                <h1>Git Fetch</h1>
+                <li>
+                    fetch gets all the change history of a tracked branch/repo.
+                    So, on your local Git, fetch updates to see what has changed on GitHub: git fetch origin <br>
+                    Now that we have the recent changes we can check our status <br>
+                    We are behind the origin/master by 1 commit. That should be the updated README.md, but lets double check by viewing the
+                    log <br>
+                    That looks as expected, but we can also verify by showing the differences between our local master and origin/master: git diff <br>
+                    That looks precisely as expected! Now we can safely merge
+                </li>
+            </div>
+            <div>
+                <h1>Git Merge</h1>
+                <li>
+                    merge combines the current branch, with a specified branch.
+                    We have confirmed that the updates are as expected, and we can merge our current branch (master) with origin master:git merge origin master <br>
+                    Check our status again to confirm we are up to date.
+                </li>
+            </div>
+            <div>
+                <h1>Git Pull</h1>
+                <li>
+                    But what if you just want to update your local repository, without going through all those steps?
+                    pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you
+                    are working on. Make another change to the Readme.md file on GitHub.
+                </li>
+                <li>
+                    Use pull to update our local Git: git pull origin <br>
+                    That is how you keep your local Git up to date from a remote repository.
+                </li>
+            </div>
+            <div>
+                <h1>Git Push to GitHub</h1>
+                <h2>Push Changes to GitHub</h2>
+                <li>
+                    Let's try making some changes to our local git and pushing them to GitHub. Commit the changes <br>
+                    And check the status, <br> Now push our changes to our remote origin, Go to GitHub, and confirm that the repository has a new commit
+                </li>
+            </div>
+            <div>
+                <h1>Git Pull Branch from GitHub</h1>
+                <li>
+                    Now continue working on our new branch in our local Git.
+                    Lets pull from our GitHub repository again so that our code is up-to-date <br>
+                    Now our main branch is up todate. And we can see that there is a new branch available on GitHub.
+                    Do a quick status check And confirm which branches we have, and where we are working at the moment:
+                </li> 
+                <li>
+                    So, we do not have the new branch on our local Git. But we know it is available on GitHub. So we can use the -a option
+                    to see all local and remote branches, We see that the branch html-skeleton is available remotely, but not on our local git. Lets check it out <br>
+                    And check if it is all up to date, Which branches do we have now, and where are we working from?
+                </li>
+                <li>
+                    Now, open your favourite editor and confirm that the changes from the GitHub branch carried over.
+                    That is how you pull a GitHub branch to your local Git.
+                </li>
+            </div>
+            <div>
+                <h1>Git Push Branch to GitHub</h1>
+                <li>
+                    After you make and commit changes locally, you can share them with the remote repository using git push. Pushing changes
+                    to the remote makes your commits accessible to others who you may be collaborating with. This will also update any open
+                    pull requests with the branch that you're working on.
+                </li>
+                <li>
+                    As best practice, it's important to run the git pull command before you push any new changes to the remote branch. This
+                    will update your local branch with any new changes that may have been pushed to the remote from other contributors.
+                    Pulling before you push can reduce the amount of merge conflicts you create on GitHub - allowing you to resolve them
+                    locally before pushing your changes to the remote branch.
+                </li>
+                <li>
+                    Common usages and options for git push
+                    git push -f: Force a push that would otherwise be blocked, usually because it will delete or overwrite existing commits
+                    (Use with caution!) <br>
+                    <li> git push -u origin [branch]: Useful when pushing a new branch, this creates an upstream tracking branch with a lasting
+                    <li>relationship to your local branch</li>
+                    <li> git push --all: Push all branches</li>
+                    <li> git push --tags: Publish tags that aren't yet in the remote repository</li>
+                    <li>  You can see all of the options with git push in git-scm's documentation.</li>
+                </li>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-container"
+            style="background-color: #9ab1e7; height: 200px; margin-top: 50px; display: flex; justify-content: space-between;align-items: center; ">
+            <div class="company-info" style="margin-left: 200px; top: 20vh;">
+                <h2 style="margin: 0;padding-top: 30px;">| <span style="color:#ec5648 ; font-weight: bold;"> Smart</span>
+                    Learning</h2>
+                <p style="margin-top: 6px;">Building Careers of Tomorrow</p>
+                <div class="social-media-links" style="display: flex; justify-content: flex-start;">
+                    <li style="list-style: none; margin: 0 9px; cursor: pointer;"><img src="./assets/facebook.svg"
+                            height="30px" alt="facebook logo"></li>
+                    <li style="list-style: none; margin: 0 9px; cursor: pointer;"><img src="./assets/twitter.svg"
+                            height="30px" alt="twitter logo"></li>
+                    <li style="list-style: none; margin: 0 9px; cursor: pointer;"><img src="./assets/linkedin.svg"
+                            height="30px" alt="linkedin logo"></li>
+                    <li style="list-style: none; margin: 0 9px; cursor: pointer;"><img src="./assets/youtube.svg"
+                            height="30px" alt="youtube logo"></li>
+                </div>
+    
+            </div>
+            <div class="links-for-mobile" style="margin-right: 200px;">
+                <button class="android"
+                    style="height: 50px; width: 200px; border-radius: 20px; background-color: #9ab1e7;font-weight: bold;">Get
+                    the android app</button><br>
+                <button class="ios"
+                    style="height: 50px; width: 200px; border-radius: 20px; background-color: #9ab1e7;font-weight: bold; margin-top: 5px;">Get
+                    the iOS app</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
