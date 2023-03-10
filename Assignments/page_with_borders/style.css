@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: azure;
+}
+.navbar{
+    display: flex;
+    font-size: 2em;
+    border-style:solid;
+    border-color: purple;
+    background-color: rgb(181, 235, 217);
+    justify-content: center;
+   
+}
+.b1{
+    text-align: center;
+    margin:40px 41px 0 41px;
+    justify-content: center;
+    border-style: dashed;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    
+}
+.b1-info {
+    border-style: solid;
+    margin: 0 20px;
+    border-radius: 10px;
+    border-color: #f0874d;
+}
+.naruto-img{
+    height: 200px;
+}
+.sub-container{
+    margin-top: 40px;
+    border-style: dashed;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    border-style: dotted;
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+}
+.sasuke-img {
+    height: 300px;
+    margin: 60px;
+    
+}
+.right-container{
+    border-style: dotted;
+    display: flex;
+     margin: 20px;
+     border-radius: 10px;
+}
+.sakura-img{
+    height: 300px;
+    margin: 60px;
+}
+.b2-info {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 61px;
+    margin-bottom: 121px;
+    border-color: purple;
+}
+.b3-info {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 89px;
+    margin-bottom: 155px;
+    border-color: #4f060d;
+}
+.list-container{
+    height: 40vh;
+    border-style: groove;
+}
+div > img{
+    height: 250px;
+}
+.inside-list-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.l1{
+    border-style:inset;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-container{
+    background-color: rgb(181, 235, 217);
+    height: 40vh;
+    border-style:solid;
+    border-color: purple;
+}
+.follow-links{
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.follow-links > a{
+    text-decoration: none;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+}
+.feedback{
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    text-align: center;
+    margin: 0 600px 0 600px ;
+}
