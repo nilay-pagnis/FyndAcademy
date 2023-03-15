@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.navigationbar {
+    height: 95vh;
+    width: 90%;
+    margin-left: 80px;
+    margin-right: 60px;
+    border-radius: 10px;
+    background-color: rgb(245, 59, 78);
+}
+.navlists {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 15px;
+}
+.getDemo {
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.logoName {
+    font-size: 3rem;
+}
+.login-page {
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.login {
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.location {
+    height: 50px;
+    padding: 0px 40px 0px 40px;
+    width: 80px;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+.search {
+    height: 50px;
+    padding: 0px 40px 0px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+.filters {
+    margin: 30px;
+    margin-top: 60px;
+    
+}
+.filter {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: whitesmoke;
+}  
+.foodHeading {
+    margin-left: 20px;
+}
+img {
+    height: 200px;
+    margin-left: 20px;
+}
+.foodHeading {
+    font-size: 3rem;
+}
+.foodTypes {
+    display: flex;
+}
+.img1{
+    text-align: center;
+}
+.img2 {
+    text-align: center;
+}
+.img3 {
+    text-align: center;
+}
+.img4 {
+    text-align: center;
+}
+.img5 {
+    text-align: center;
+}
+p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}

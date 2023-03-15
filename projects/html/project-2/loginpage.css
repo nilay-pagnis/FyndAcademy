@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffff00 0%, #fa2f21 100%);
+}
+.login-container {
+    height: 59vh;
+    width: 80%;
+    margin: 150px;
+    margin-top: -28px;
+    margin-bottom: 0;
+    background-color: rgb(48, 42, 42);
+    display: flex;
+    border-radius: 10px;
+    border-color: #ffff00;
+}
+.login-wrapper{
+    color: white;
+}
+.login-wrapper {
+    margin: 70px;
+    margin-left: 200px;
+}
+label {
+    font-size: 1rem;
+    display:block;
+    margin-left: 6px;
+    color: yellow;
+}
+input {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+.login-img > img{
+    margin: 80px;
+}
+button {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 35px;
+    width: 120px;
+    border-color: yellow;
+}
+.forgotPassword {
+    color: yellow;
+    margin-left: 95px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(48, 42, 42);
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+    margin-left: -9px;
+
+}
+.nzomato-gif {
+    text-align: center;
+}

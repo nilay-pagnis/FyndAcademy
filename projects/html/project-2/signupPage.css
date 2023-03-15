@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1587899897387-091ebd01a6b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* rgba(0, 0, 0, 0.43) */
+.signup-container {
+    height: 59vh;
+    width: 80%;
+    margin: 150px;
+    background-color: rgba(0, 0, 0, 0.43);
+    display: flex;
+    border-radius: 10px;
+    border-color: #ffff00;
+}
+
+.signup-wrapper {
+    color: white;
+}
+
+.signup-wrapper {
+    margin: 70px;
+    margin-left: 200px;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    margin-left: 6px;
+    color: yellow;
+}
+
+input {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 35px;
+    width: 120px;
+    border-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+    margin-left: -9px;
+
+}
+.nzomato-gif {
+    margin: 60px;
+}
+.home-button {
+    border-radius: 10px;
+    padding: 22px 55px 35px 0px;
+    background-color: rgba(0, 0, 0);
+}
