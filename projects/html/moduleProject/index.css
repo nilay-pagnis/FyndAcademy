@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    
+}
+.main-container {
+    width: 98.90vw;
+}
+.navigation-Container {
+    height: 10vh;
+    display: flex;
+    background-color: rgba(33, 33, 253, 0.705);
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 189px 0px 30px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+.logo-img {
+    color: rgb(100, 4, 255);
+    font-size: xx-large;
+    border-style: solid;
+    padding: 0px 10px 0px 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.profile-container {
+    margin-left: 830px;
+    cursor: pointer;
+}
+.basket > span{
+    font-size: 40px;
+}
+.basket{
+    font-weight: bold;
+    cursor: pointer;
+}     
+.Retern-container {
+    cursor: pointer;
+}
+.hello {
+    font-size: 14px;
+}
+.account {
+    font-size: 26px;
+}
+.return {
+    font-size: 14px;
+}
+.order {
+    font-size: 26px;
+}
+.btn-secondary {
+    background-color: #6262fe;
+    border-color: #6262fe;
+    font-size: 1.4rem;
+    border-style: none;
+    box-shadow: none;
+}
+.btn:hover {
+    background-color: #6262fe;
+        border-color: #6262fe;
+        border-style: none;
+        box-shadow: none;
+}
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    background-color: #6262fe;
+    border-color: #6262fe;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/* -----------------------section-------------------------------------*/
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+}
+.searchFilter-bar {
+    margin-top: 20px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+}
+.searchBar > input {
+    height: 37px;
+    width: 350px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #ced4da;
+}
+.getButton {
+    position: relative;
+    right: 30px;
+    top: -11px;
+    left: -10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.location-icon > span{
+    position: relative;
+}   
+
+
+.btn-color {
+    background-color: #4240c1;
+    border-color: white;
+    color: white;
+
+}
+.btn:hover {
+    color: white;
+}
+.btn-check:focus+.btn-danger,
+.btn-danger:focus {
+    box-shadow: none;
+}
+.category-container > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 0px 10px 0px 10px;
+}
+.category-container>ul > li {
+    margin-top: 6px;
+    
+}
+.category-container>ul>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.category-container>ul>li>a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(33, 33, 253, 0.705);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.category-wrapper {
+    margin-top: 50px;
+}
+.filter {
+    display: flex;
+    font-size: 1.2rem;
+}
+.PartnerShop {
+    margin-left: 20px;
+}
+.marquee-container {
+    font-weight: bold;
+    color: blue;
+}
+.carousel-inner {
+    width: 100%;
+    height: 200px;
+}
+.form-select {
+    background-color: rgb(235, 235, 235);
+    border-style: none;
+}
+
+
+
+
+
+/* -----------------------footer------------------------- */
+
+.footer-container {
+    height: 20vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color:rgba(33, 33, 253, 0.705) ;
+}
+.grid-container {
+    display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 0px;   
+        
+}
+.grid-container>div {
+    font-size: 15px;
+    text-align: start;
+}
+li {
+    list-style: none;
+    color: rgb(255, 254, 254);
+}
+li>a {
+    color: white;
+    text-decoration: none;
+}
+li>a:hover{
+    color: white;
+}
+ul{
+    text-align: left;
+}
+.location-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    height: 18vh;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.location {
+   padding-top: 200px;
+}
+.location>input {
+    margin-bottom: 5px;
+    width: 190px;
+}
+.state>input {
+    
+    width: 190px;
+}
+.location-icon {
+    padding-bottom: 200px;
+}
+.location-icon > span {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 74, 74);
+}
+.main-wrapper {
+    width: 80vw;
+}

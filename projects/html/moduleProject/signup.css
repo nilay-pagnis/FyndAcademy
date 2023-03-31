@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+
+}
+
+/* -------------------------------navbar------------------------- */
+.main-container {
+    width: 98.90vw;
+}
+
+.navigation-Container {
+    height: 10vh;
+    display: flex;
+    background-color: rgba(33, 33, 253, 0.705);
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 189px 0px 30px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.logo-img {
+    color: rgb(100, 4, 255);
+    font-size: xx-large;
+    border-style: solid;
+    padding: 0px 10px 0px 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.profile-container {
+    margin-left: 830px;
+    cursor: pointer;
+}
+
+.basket>span {
+    font-size: 40px;
+}
+
+.basket {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Retern-container {
+    cursor: pointer;
+}
+
+.hello {
+    font-size: 14px;
+}
+
+.account {
+    font-size: 26px;
+}
+
+.return {
+    font-size: 14px;
+}
+
+.order {
+    font-size: 26px;
+}
+
+.btn-secondary {
+    background-color: #6262fe;
+    border-color: #6262fe;
+    font-size: 1.4rem;
+    border-style: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: #6262fe;
+    border-color: #6262fe;
+    border-style: none;
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn-secondary,
+.btn-secondary:focus {
+    background-color: #6262fe;
+    border-color: #6262fe;
+    box-shadow: none;
+}
+
+/* ---------------------------section----------------------------------- */
+
+.loginSection {
+    height: 100vh;
+    width: 98vw;
+}
+
+.login-container {
+    position: relative;
+    background-color: whitesmoke;
+    top: 70px;
+    left: 250px;
+    height: 500px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.login-leftlogo {
+    width: 453px;
+    background-color: #6262fe;
+    border-radius: 10px;
+}
+
+.logo-loginimg {
+    color: rgb(100, 4, 255);
+    font-size: xx-large;
+    border-style: solid;
+    padding: 0px 10px 0px 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    width: 90px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
+
+.login-rightInput {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    margin-top: 30px
+}
+
+.subHeading {
+    color: grey;
+}
+
+.input-container {
+    margin-top: 1px;
+    margin-left: 40px;
+}
+
+#emailMobileNo {
+    border-radius: 15px;
+    height: 35px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#emailMobileNo:focus {
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#password {
+    border-radius: 15px;
+    height: 35px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.label-pass {
+    margin-top: 10px;
+    color: grey;
+}
+
+.email-MobileNo {
+    color: grey;
+}
+
+.forgot-password {
+    position: relative;
+    top: 5px;
+    left: 150px;
+}
+
+.login-btn {
+    width: 150px;
+    height: 44px;
+    border: 1px solid #dfdbdb;
+    border-radius: 15px;
+    background-color: #6262fe;
+    color: white;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.login-leftlogo {}
+
+/* -----------------------footer------------------------- */
+
+.footer-container {
+    height: 20vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(33, 33, 253, 0.705);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+
+}
+
+.grid-container>div {
+    font-size: 15px;
+    text-align: start;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 254, 254);
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+li>a:hover {
+    color: white;
+}
+
+ul {
+    text-align: left;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    height: 18vh;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.location {
+    padding-top: 200px;
+}
+
+.location>input {
+    margin-bottom: 5px;
+    width: 190px;
+}
+
+.state>input {
+
+    width: 190px;
+}
+
+.location-icon {
+    padding-bottom: 200px;
+}
+
+.location-icon>span {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 74, 74);
+}
+
+.main-wrapper {
+    width: 80vw;
+}
