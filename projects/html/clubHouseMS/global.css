@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rubik:ital,wght@0,400;0,500;1,500;1,600&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+    overflow-x: hidden;
+}
+/* navbar CSS */
+.nav-container {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    height: 10vh;
+    background-color: rgba(213, 255, 241, 0.959);
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.logo a > span {
+    color: crimson;
+}
+.logo a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(213, 255, 241, 0.959);
+}
+.navigation-features {
+   
+    border-radius: 5px;
+    background-color: rgba(213, 255, 241, 0.959);
+}
+.ul-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    width: 450px;
+    font-size: 1.5rem;
+}
+.ol-list {
+    border-bottom: 2px solid crimson;
+}
+/* section CSS */
+.heading{
+    font-weight: bold;
+}
+.heading, .sub-heading {
+    text-align: center;
+}
+.heading>span {
+    color: crimson;
+}
+.sub-heading {
+    color: crimson;
+    font-weight: bold;
+}
+.feature-img > img{
+    height: 200px;
+    border-radius: 20px;  
+}
+.feature-lists {
+    position: absolute;
+    top: 650px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.feature-heading {
+    position: relative;
+    top: 300px;
+    left: 15px;
+    color: green;
+    font-weight: bold;
+}
+.problem-heading {
+    position: absolute;
+    left: 950px;
+    top: 320px;
+    color: crimson;
+    font-weight: bold;
+}
+.problems-lists {
+    position: absolute;
+    left: 970px;
+    top: 400px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.demo-container {
+    height: 13vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.demo-events > button {
+    background-color: blueviolet;
+    color: white;
+    border: 0.5px solid crimson;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 50px;
+}
+.demo-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.demo-events>button>a {
+    text-decoration: none;
+    color: white;
+}

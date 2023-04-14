@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rubik:ital,wght@0,400;0,500;1,500;1,600&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+/* navbar CSS */
+.nav-container {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    height: 10vh;
+    background-color: rgba(213, 255, 241, 0.959);
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo a>span {
+    color: crimson;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(213, 255, 241, 0.959);
+}
+
+.navigation-features {
+
+    border-radius: 5px;
+    background-color: rgba(213, 255, 241, 0.959);
+}
+
+.ul-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    width: 450px;
+    font-size: 1.5rem;
+}
+
+/* section CSS */
+.gym-wrapper {
+    display: flex;
+
+}
+.img-1{
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.img-2 {
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.img-3 {
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.gym-img {
+    width: 30%;
+}
+.issueForm {
+    height: 80vh;
+    width: 70%;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.btn-primary {
+    background-color: purple;
+}
+
+.btn-primary:hover {
+    background-color: #9796f0;
+    transition: .9s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.input-date>input {
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px 0 10px;
+    height: 30px;
+}
+
+.general-info>input {
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px 0 10px;
+    height: 30px;
+}
+.general-info{
+    margin: 20px;
+    text-align: center;
+}
+textarea{
+    resize: none;
+}

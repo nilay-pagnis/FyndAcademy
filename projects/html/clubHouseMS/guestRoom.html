@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book | Guest Rooms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./guestRoom.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <!-- navbar -->
+        <div class="logo"><a href="./index.html"> Club House <span>M.S</span></a></div>
+        <div class="navigation-features">
+            <ul class="ul-list">
+                <li class="ol-list">Login</li>
+                <li class="ol-list">SignUp</li>
+                <li class="ol-list">Profile</li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <!-- section -->
+    <h1 class="book-events">Book Guest Rooms</h1>
+    <br><br>
+    <div class="avalableRooms">
+        <h2>Total Rooms - 5</h2>
+        <h2>Booked Rooms - 3</h2>
+        <h2>Available Rooms - 2</h2>
+    </div><br><br>
+    <div class="bookEvent-wrapper">
+        <div class="calendar">
+            <div class="calendar-header">
+                <span class="month-picker" id="month-picker"> May </span>
+                <div class="year-picker" id="year-picker">
+                    <span class="year-change" id="pre-year">
+                        <pre><</pre>
+                    </span>
+                    <span id="year">2020 </span>
+                    <span class="year-change" id="next-year">
+                        <pre>></pre>
+                    </span>
+                </div>
+            </div>
+
+            <div class="calendar-body">
+                <div class="calendar-week-days">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="calendar-days">
+                </div>
+            </div>
+            <div class="calendar-footer">
+            </div>
+            <div class="date-time-formate">
+                <div class="day-text-formate">TODAY</div>
+                <div class="date-time-value">
+                    <div class="time-formate">02:51:20</div>
+                    <div class="date-formate">23 - july - 2022</div>
+                </div>
+            </div>
+            <div class="month-list"></div>
+        </div>
+        <div class="bookevent-container">
+            <h1 class="bookevent-heading">Send Details to Committee</h1>
+            <div class="inside-event">
+                <div class="input-date">
+                    <p style="font-size: 1.2rem;margin-bottom: 0;">Date</p>
+                    <input type="text" class="date-1" placeholder="From">
+                    <input type="text" class="date-2" placeholder="TO">
+                </div><br>
+                <div class="general-info">
+                    <label for="fullName">Full Name</label><br>
+                    <input type="text" id="fullName"><br><br>
+                    <label for="address">Full Address</label><br>
+                    <input type="text" id="address"><br><br>
+                    <label for="roomRequired">Room Required</label><br>
+                    <input type="text" id="roomRequired" maxlength="1"><br><br>
+                    <label for="mobileNo">Mobile Number</label><br>
+                    <input type="tel" maxlength="10" id="mobileNo">
+                </div><br><br>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Send Details</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="bookevent-committee">
+            <h3 class="bookevent-heading-1">Committee Members</h3>
+            <hr>
+            <ol>
+                <li>Elmer Harmon( <span> Secretary </span>)</li>
+                <span>+91 8746578354</span><br><br>
+                <li>Mark Mendez( <span> Committee Member</span> )</li>
+                <span>+91 9856478864</span><br><br>
+                <li>Scott Bacchus ( <span>Committee Member</span> )</li>
+                <span>+91 9856478864</span><br><br>
+                <li>Theo Gordon ( <span>Committee Member</span> )</li>
+                <span>+91 9988446573645</span>
+            </ol>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./events.js"></script>
+</body>
+
+</html>
